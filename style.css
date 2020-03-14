@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+}
+
+.first-row, .second-row {
+    height: 325px;
+    margin: 20px;
+}
+
+/* load images */
+.first-row .block-item:first-child {
+    background-image: url('https://lh3.googleusercontent.com/proxy/QqxPrSRrOVTvLlBcp2_fGGazNmg6nXpkMl84C0y9Tv9IG1qy7uxkwXG2aTf8hPAo1WtOppSCLUmmQAOsHctmUD9vejkkCKrLTKIVs8bBW62nftXJzdyvGi48A6Nz4FA87Tgp032tl0LqCtG0V347MfCA');
+}
+
+.first-row .block-item:nth-child(2) {
+    background-image: url('https://test.acwild.it/wp-content/uploads/2019/11/EsseShop.it-LOGIC-S-LC-BT-1-BLUE_0-300x300.jpg');
+}
+
+.first-row .block-item:last-child {
+    background-image: url('https://prodpics.trovaprezzi.it/comparisonit/apple_ipad_pro3_12_9_512gb-300x300.jpg');
+}
+
+.second-row .block-item:first-child {
+    background-image: url('https://www.sdtoner.it/files/sdtoner_Files/Foto/186029_1.PNG');
+}
+
+.second-row .block-item:nth-child(2) {
+    background-image: url('https://www.cuffie.pro/wp-content/uploads/2017/07/Audio-Technica-ATH-AR3BT-Cuffie-Wireless-Bluetooth-Recensione-Prezzi-300x300.jpg');
+}
+
+.second-row .block-item:last-child {
+    background-image: url('https://lh3.googleusercontent.com/proxy/3P3rNqszthJ7lig0Tm0e74Mk4XMWqISwCQoNS8In6WgxZRKdrmZ_z2zAIJ8yVnLtYSRY9Il0lQEYnH4bBJX85dAcRpRql-9UOxgBRGQ0h-U2fp0R4E5xV6VRH2zvdB8RVg');
+}
+/* ------------- */
+
+.block-item {
+    width: 300px;
+    height: 100%;
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+}
+
+/* discount position and colors */
+.block-item span:first-child {
+    position: absolute;
+    right: 0;
+    border: 1px solid black;
+}
+
+span.big-discount {
+    background-color: red;
+}
+
+span.little-discount {
+    background-color: coral;
+}
+/* ------------------------------ */
+
+/* pop-up heart */
+span.heart {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    display: none;
+    color: red;
+}
+
+.block-item:hover span.heart {
+    display: inline-block;
+}
+/* -------------- */
+
+
+.block-item:hover {
+    box-shadow: 10px 10px 5px grey;
+}
+
+
+
