@@ -71,6 +71,7 @@ span.heart {
     right: 50%;
     display: none;
     color: red;
+    font-size: 30px;
 }
 
 .block-item:hover span.heart {
